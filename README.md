@@ -8,11 +8,11 @@ I am familar with data science, computer vision and programming. I have utilized
 And here is a link to a little [Heroku application](https://yuzhao0215.github.io/ds_portfolio/projects/project2.html) I made. 
 I am interested in data science not only because it is helpful for research, but also because it can solve real world problems.
 
-## Motivation and Objective
+## Motivations
 Why I wanted to do a project about 3D reconstruction from pictures? Although we are usually dealing with 2D pictures on Internet, 3D object can sometimes make our lifes easier. For example, there is a function on Amazon's app called "view in your room". Before you buy a television, or a big furniture, you can test if it fits your room by virtually placing the 3D model in your room. 
 
 <p align="center">
-	<img width="380" height="380" src="./images/amazon_ar.PNG">
+	<img width="380" height="330" src="./images/amazon_ar.PNG">
 </p>
 
 Another example that 3D reconstruction can help in business is in construction industry. Before construction, it is important to know the 3D shape of the construction site. A drone can be used to capture images of a building from different views, then reconstruct the 3D shape of the building. So that they one can do data analysis on the 3D shape such as distance or area measurements.
@@ -20,7 +20,13 @@ Another example that 3D reconstruction can help in business is in construction i
 	<img width="450" height="300" src="./images/DJI_terra.PNG">
 </p>
 
-Therefore, the goal of this project is to train a model using existing pictures either taken by yourself or collected from internet. To achieve this, Feature Detection, Structure From Motion (SFM), Bundle Adjustment, and Neural Volume Rendering are needed.
+Museum might also be potential audience. Museums can use 3D reconstruction so that everyone can visualize their collections online.
+<p align="center">
+	<img width="450" height="300" src="./images/antique.PNG">
+</p>
+
+## Objective
+The goal of this project is to build a small website that people can reconstruct 3D models of objects they are interest. A a model will be trained using pictures either uploaded by users. To achieve this, Feature Detection, Structure From Motion (SFM), Bundle Adjustment, and Neural Volume Rendering are needed.
 
 <p align="center">
 	<img width="380" height="200" src="./images/1.jpg">
